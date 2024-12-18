@@ -96,6 +96,7 @@ body{
     font-weight: 600;
     font-family: "Zen Dots", sans-serif;
     text-align: center;
+    text-shadow: #0000007e 0 0 10px;
 }
 
 .main-status{
@@ -126,6 +127,7 @@ body{
     border-radius: 999rem;
     width: 180px;
     text-align: center;
+    box-shadow: #000000a9 0 0 25px;
 }
 
 .icone-down i{
@@ -149,6 +151,7 @@ body{
     margin-bottom: 15%;
 }
 
+.title-competences i,
 .title-parcours i,
 .icone-presentation{
     font-size: 40px;  /* Taille de l'icône */
@@ -175,7 +178,7 @@ body{
     color: #ffffffc5;
 }
 
-.presentation-important{
+.important{
     color: #d144db
 }
 
@@ -183,33 +186,84 @@ body{
 
 .section-parcours{
     background: #000;
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
+.container-competences,
 .container-parcours{
     margin-bottom: 15%;
+    width: 55%;
 }
 
+.title-competences,
 .title-parcours{
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10%;
 }
 
+.title-competences i,
 .title-parcours i{
-
     margin-right: 10px;
 }
 
-.parcours p{
+.formation{
+    margin-bottom: 50px;
+}
+
+.formation i{
+    margin-bottom: 5px;
+    font-size: 35px;  /* Taille de l'icône */
+    background: linear-gradient(#7c00c4, #ffaf47 100%);/* Dégradé */
+    -webkit-background-clip: text;  /* Appliquer le dégradé au texte */
+    color: transparent;
+}
+
+.etablissement{
+    font-size: 2rem;
+}
+
+.parcours h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
     color: #fff;
 }
 
+.parcours p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: #ffffffc5;
+    margin-left: 3rem;
+}
+
+/* COMPETENCES */
+.section-competences{
+    background: #000;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.competences{
+    display: flex;
+}
+
+.competence img{
+    width: 150px;
+}
 
 
 
@@ -221,8 +275,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .footer h3{
