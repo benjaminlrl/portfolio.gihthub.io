@@ -47,10 +47,10 @@
     <section class="section-parcours">
         <div class="container-parcours">           
             <div class="parcours">
-            <div class="title-parcours">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <h3>Parcours :</h3>
-            </div>
+                <div class="title-parcours">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Parcours :</h3>
+                </div>
                 <i class="fa-light fa-trophy-star" style="color: #B197FC;"></i>
                 <p>Je m'apelle <span class="presentation-important">Benjamin Lorieul</span>, jeune apprenti développeur web de 18ans. <br></p>
                 <p>J'adore coder des projets, construire des applications ou créer des algorithmes pour résoudre divers problèmes.</p>

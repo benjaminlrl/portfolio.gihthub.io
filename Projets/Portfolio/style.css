@@ -176,7 +176,7 @@ body{
 }
 
 .presentation-important{
-    color: #d144db;
+    color: #d144db
 }
 
 /* PARCOURS */
@@ -204,6 +204,10 @@ body{
 .title-parcours i{
 
     margin-right: 10px;
+}
+
+.parcours p{
+    color: #fff;
 }
 
 
